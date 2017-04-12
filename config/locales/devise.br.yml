@@ -1,0 +1,61 @@
+---
+fr:
+  devise:
+    confirmations:
+      confirmed: Gwiriet eo bet ho kont.
+      send_instructions: Degemer a reot an ditouroù da gadarnaat ho kont a-benn un nebeud munutennoù.
+      send_paranoid_instructions: Ma vez eus ho postel en hon stlennvon e resevot ur postel oc'h enderc'hel an ditouroù da gadarnaat ho kont.
+    failure:
+      already_authenticated: Kennasket oc'h endeo.
+      inactive: N'eo ket kadarnaet ho kont c'hoazh.
+      invalid: Postel pe ger-tremen direizh.
+      last_attempt: Gallout a rit klask en-dro ur wech c'hoazh a-raok ma vefe prennet ho kont.
+      locked: Prennet eo ho kont.
+      not_found_in_database: Chomlec'h pe ger-tremen direizh.
+      timeout: Votre session est expirée. Adkennaskit evit kenderc'hel mar plij.
+      unauthenticated: Ret eo deoc'h kennaskañ pe marilhan evit kenderc'hel.
+      unconfirmed: Ret eo deoc'h kadarnaat ho kont evit kenderc'hel.
+    mailer:
+      confirmation_instructions:
+        subject: Ditouroù kardanaat
+      password_change:
+        subject: Kemmet eo bet ho ker-tremen gant berzh.
+      reset_password_instructions:
+        subject: Ditouroù evit kemman ho ker-tremen
+      unlock_instructions:
+        subject: Ditouroù evit dibrennan ho kont
+    omniauth_callbacks:
+      failure: 'N'haller ket ho kennaskan dre %{kind} : ''%{reason}''.'
+      success: Kennasket gant berzh dre %{kind}.
+    passwords:
+      no_token: N'hallit ket haezin ar bajenn-mañ hep tremen dre ur potel adderaouekaat ar ger-tremen. M'hoc'h tremenet dre ur postel eus an doare-se, gwiriekait ho peus implijet an URL klok.
+      send_instructions: Degemer a reot an ditouroù adderaouekaat ar ger-tremen a-benn nebeud amzer
+      send_paranoid_instructions: Ma vez eus ho chomlec'h postel en hon stlennvon e resevot un ere adderaouekaat dre bostel
+      updated: Kemmet eo bet ho ker-tremen gant berzh.Kennasket oc'h bremañ.
+      updated_not_active: Kemmet eo bet ho ker-tremen gant berzh.
+    registrations:
+      destroyed: Dilammet eo bet ho kont gant berzh. Ken ma viot gwelet.
+      signed_up: Donemat, kennasket oc'h.
+      signed_up_but_inactive: Marilhet oc'h. N'hallit ket kennaskañ c'hoazh dre ma n'eo ket bet gweredekaet ho kont.
+      signed_up_but_locked: VMarilhet oc'h. N'hallit ket kennaskañ c'hoazh dre m'eo stanket ho kont.
+      signed_up_but_unconfirmed: Kaset ez eus bet un ere kadarnaat d'ho chomlec'h postel. Digerit an ere-se eit gweredekaat ho kont.
+      update_needs_confirmation: Hizivaet eo bet ho kont met ret eo deomp gwiriañ ho chomlec'h postel nevez. Gwiriekait ho posteloù ha klikit war an ere kadarnaat evit klokaat gwiriekadur ho chomlec'h nevez.
+      updated: Kemmet eo bet ho kont gant berzh.
+    sessions:
+      already_signed_out: Digennasket.
+      signed_in: Kennasket.
+      signed_out: Digennasket.
+    unlocks:
+      send_instructions: Degemer a reot an ditouroù dleet evit dibrennañ ho kont e-benn un nebeud amzer
+      send_paranoid_instructions: Ma vez eus ho kont e resevot ur postel oc'h enderch'el an ditouroù evit he dibrennañ.
+      unlocked: Dibrennet eo bet ho kont gant berzh. Kennasket oc'h bremañ.
+  errors:
+    messages:
+      already_confirmed: a zo bet gwiriekaet endeo, adklaskit kennaskañ
+      confirmation_period_expired: da gadarnaat a-benn %{period}, savit ur goulenn nevez
+      expired: a zo diamzeret. Savit ur goulenn nevez.
+      not_found: n'eo ket bet kavet
+      not_locked: na oa ket prennet
+      not_saved:
+        one: '1 fazi en deus miret %{resource} da vezañ enrollet:'
+        other: "%{count} fazi o deus miret %{resource} da vezañ enrollet:"

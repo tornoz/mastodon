@@ -1,0 +1,46 @@
+---
+fr:
+  simple_form:
+    hints:
+      defaults:
+        avatar: PNG, GIF pe JPG. 2Me d'ar muiañ. Krennet e vo betek 120x120 a bikseloù
+        display_name: 30 arouezenn d'ar muiañ
+        header: PNG, GIF pe JPG. 2MB d'ar muiañ. Krennet e vo betek 700x335 a bikseloù
+        locked: Goulenn a raio ganeoc'h asantiñ an heulierien gant an dorn ha bevennet e vo an embanndennoù d'an heulierien dre ziouer
+        note: 160 arouezenn d'ar muiañ
+      imports:
+        data: Restr CSV ezporzhiet adalek un ensav Mastodon all
+    labels:
+      defaults:
+        avatar: Skeudenn an aelad
+        confirm_new_password: Kadarnaat ar ger-tremen nevez
+        confirm_password: Kadarnaat ar ger-tremen
+        current_password: Ger-tremen bremanel
+        data: Roadennoù
+        display_name: Anv foran
+        email: Chomlec'h postel
+        header: Skeudenn dalbenn
+        locale: Yezh
+        locked: Lakaat ar gont da vezañ prevez
+        new_password: Ger-tremen nevez
+        note: Kinnig
+        otp_attempt: Boneg div bazenn
+        password: Ger-tremen
+        setting_default_privacy: Prevezded an embannadenn
+        type: Doare enporzhiañ
+        username: Anv implijer
+      interactions:
+        must_be_follower: Kuzhat rebuzadurioù an dud na heuilhont ket ac'hanoc'h
+        must_be_following: Kuzhat rebuzadurioù an dud na heuilhit ket
+      notification_emails:
+        digest: Kas postelloù diverrañ
+        favourite: Kas ur postel pa vez ouzhpennet ma statudoù d'he/e reoù gwellañ
+        follow: Kas ur postel pa vezan heuilhet
+        follow_request: Kas ur postel pa c'houlenn unan bennak ma heuliañ
+        mention: Kas ur postel pa vezan meneget
+        reblog: Kas ur postel p'eo rannet unan eus ma statudoù
+    'no': Ket
+    required:
+      mark: "*"
+      text: Maezienn azgoulennet
+    'yes': Ya

@@ -1,0 +1,113 @@
+---
+fr:
+  activerecord:
+    attributes:
+      doorkeeper/application:
+        name: Anv
+        redirect_uri: URL adheñchañ
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri:
+              fragment_present: n'hall ket enderc'hel ur bruzun.
+              invalid_uri: a rank bezañ un URL talvoudek.
+              relative_uri: a rank bezañ un URL dizave.
+              secured_uri: doit être une URL HTTP/SSL.
+  doorkeeper:
+    applications:
+      buttons:
+        authorize: aotren
+        cancel: Nullañ
+        destroy: Distruj
+        edit: Kemmañ
+        submit: Kas
+      confirmations:
+        destroy: Ha sur oc'h?
+      edit:
+        title: Kemmañ an arload
+      form:
+        error: Chaous! Gwiriekait ho furmskid da gavout fazioù
+      help:
+        native_redirect_uri: Arverañ %{native_redirect_uri} evit ar prouadoù lec'hel
+        redirect_uri: Arverañ ul linenn dre URL
+        scopes: Disrannañ al ledennaoù gant esaouennoù. Leuskel goulo evit arerañ al ledennadoù dre ziouer.
+      index:
+        callback_url: URL adc'halv
+        name: Anv
+        new: Arload nevez
+        title: Hoc'h arloadoù
+      new:
+        title: Arload nevez
+      show:
+        actions: Gweredoù
+        application_id: Naoudi an arload
+        callback_urls: URL adc'halv
+        scopes: Ledennadoù
+        secret: Sekred
+        title: 'Arload: %{name}'
+    authorizations:
+      buttons:
+        authorize: Aotren
+        deny: Nac'hañ
+      error:
+        title: Degouezhet ez eus bet ur fazi
+      new:
+        able_to: An arload a vo gouest da:
+        prompt: Aotren %{client_name} da arverañ ho kont?
+        title: Aotren dleet
+      show:
+        title: Boneg aotren
+    authorized_applications:
+      buttons:
+        revoke: Nullañ
+      confirmations:
+        revoke: Sur oc'h?
+      index:
+        application: Arload
+        created_at: Krouet an
+        date_format: "%Y-%m-%d %H:%M:%S"
+        scopes: Ledennadoù
+        title: Hoc'h arloadoù aotreet
+    errors:
+      messages:
+        access_denied: Perc'henn al loaz pe an dafariad aotren en deus nac'het ar goulenn.
+        credential_flow_not_configured: Lanv naoudi gerioù-tremen perc'henn al loaz en deus faziet abalamour ma n'eo ket kefluniet Doorkeeper.configure.resource_owner_from_credentials.
+        invalid_client: Naoudi an arval en deus faziet abalamour d'un arval dianav, d'un diouer a zilesa arval, pe d'un hentenn zilesa n'eo ket kemeret e kont.
+        invalid_grant: Direizh eo ar c'henasant aotre, pe diamzeret, ne glot ket gant URL an adheñchañ arveret er goulenn aotre pe kaset eo bet gant un arval all.
+        invalid_redirect_uri: Direizh eo an URL adheñchañ.
+        invalid_request: Mankout a ra un arventenn rekis, endec'hel a ra ur gwerzh arventenn anskor pe stummet fall eo.
+        invalid_resource_owner: Naoudi perc'henn al loaz n'int ket taldouvek, pe n'hall ket bezañ kavet perc'henn al loaz
+        invalid_scope: Didalvoudek, dianav pe stummet fall eo al ledennad goulennet.
+        invalid_token:
+          expired: Diamzeret en deus arn odeer haeziñ
+          revoked: Nullet eo bet an odeer haeziñ
+          unknown: Didalvoudek eo an odeer haeziñ
+        resource_owner_authenticator_not_configured: C'hwitet en ur glask perc'henn al loaz abalamour ma n'eo ket kefluniet Doorkeeper.configure.resource_owner_authenticator.
+        server_error: Degouezhet ez eus bet un diferadenn dic'hortoz en dafariad aotrenn ar pezh en deus miret anezhañ da glokaat ar goulenn.
+        temporarily_unavailable: Dic'houest eo an dafariad aotren da geweriañ ar goulenn abalamour d'un dreistkarg pe d'un trezalc'h war an dafariad.
+        unauthorized_client: N'eo ket aotreet an arvel d'ober ar goulenn-mañ gant an hentenn-mañ.
+        unsupported_grant_type: An doare kenasant aotren n'eo ket skoret gant an dafariad aotren.
+        unsupported_response_type: An dafariad aotren ne skor ket an doare respont-mañ.
+    flash:
+      applications:
+        create:
+          notice: Arload krouet.
+        destroy:
+          notice: Arload dilamet.
+        update:
+          notice: Arload hizivaet.
+      authorized_applications:
+        destroy:
+          notice: Arload nullet.
+    layouts:
+      admin:
+        nav:
+          applications: Arloadoù
+          oauth2_provider: POuchaser OAuth2
+      application:
+        title: Aotren OAuth2 dleet
+    scopes:
+      follow: koumanantiñ, digoumanantiñ, stankañ ha distankañ kontoù
+      read: lenn roadennoù ho kont
+      write: hizivaat statudoù

@@ -1,0 +1,165 @@
+---
+fr:
+  about:
+    about_mastodon: Un dafariad <em>frank<em> rouedadiñ kevredadel eo Mastodon. Un dazeilad <em>digreizennet</em> d'ar savennoù kenwerzhel eo. Tremen a rit e biou unwerhzadur ho kaozeadennoù gant un embregerezh hepken. Pep hini a c'hell herbec'hiañ Mastodon ha kemer perzh er <em>rouedad kevredadel</em> en un doare treuzwelus.
+    about_this: A-zivout an ensav
+    apps: Arloadoù
+    business_email: "Chomlec'h postel micherel:"
+    contact: Darempred
+    description_headline: Petra eo %{domain}?
+    domain_count_after: Ansavoù all
+    domain_count_before: Kennasket da
+    features:
+      api: API digor evit arloadoù ha gwazerezhioù
+      blocks: Ostilhoù stankañ ha didrouzañ
+      characters: 500 arouezenn dre embannadenn
+      chronology: Redoù en urzh amzerel
+      ethics: 'Ergrafañ divezoniel: bruderezh ebet, heuilhañ ebet'
+      gifv: GIFV ha videoioù berr
+      privacy: Arventennit pizh gwelusted an embannadennoù
+      public: Redoù foran
+    features_headline: Ar pezh a lak Mastodon da vezañ dibar
+    get_started: Mont er rouedad
+    links: Ereoù
+    other_instances: Ensavoù all
+    source_code: Boneg tarzh
+    status_count_after: statud
+    status_count_before: Skrivet ganto
+    terms: Diferadenn
+    user_count_after: arveriad
+    user_count_before: Kêr
+  accounts:
+    follow: Heuliañ
+    followers: Koumananterien
+    following: Koumanantoù
+    nothing_here: N'eus netra amañ!
+    people_followed_by: Tud heuliet gant %{name}
+    people_who_follow: Tud a heuilh %{name}
+    posts: Statudoù
+    remote_follow: Heuilhañ a-bell
+    unfollow: Diheuliañ
+  application_mailer:
+    settings: 'Kemmañ gwellvezioù ar posteloù: %{link}'
+    signature: Rebuzadurioù Mastodon adalek %{instance}
+    view: 'Gwelet:'
+  applications:
+    invalid_url: Didalvoudek eo an URL kinniget
+  auth:
+    change_password: Kemmañ ar ger-tremen
+    didnt_get_confirmation: N'ho peus ket resevet an ditouroù kardarnaat?
+    forgot_password: Ger-tremen disoñjet?
+    login: Kennaskañ
+    logout: Digennaskañ
+    register: Marilhañ
+    resend_confirmation: Kas en-dro an ditouroù kadarnaat
+    reset_password: Adderaouekaat ar ger-tremen
+    set_new_password: Lakaat ar ger-tremen nevez
+  authorize_follow:
+    error: Degouezhet ez eus bet ur fazi en ur glask war-lec'h ar gont diavaez
+    follow: Heuliañ
+    prompt_html: 'Goulennet ho peus (<strong>%{self}</strong>) da heuliañ:'
+    title: Heuliañ %{acct}
+  datetime:
+    distance_in_words:
+      about_x_hours: "%{count}e"
+      about_x_months: "%{count}mi"
+      about_x_years: "%{count}bl"
+      almost_x_years: "%{count}bl"
+      half_a_minute: Diouzhtu
+      less_than_x_minutes: "%{count}mu"
+      less_than_x_seconds: Diouzhtu
+      over_x_years: "%{count}bl"
+      x_days: "%{count}de"
+      x_minutes: "%{count}mu"
+      x_months: "%{count}mi"
+      x_seconds: "%{count}ei"
+  exports:
+    blocks: Stankañ a rit
+    csv: CSV
+    follows: Heuliañ a rit
+    storage: Kadaviñ media
+  generic:
+    changes_saved_msg: Enrollet eo bet ar c'hemmoù gant berzh!
+    powered_by: kaset gant %{link}
+    save_changes: Enrollañ ar c'hemmoù
+    validation_errors:
+      one: Un dra bennak a-dreuz a zo! Gwiriekait ar fazi dindan.
+      other: Traoù 'zo a-dreuz! Gwiriekait ar fazioù dindan.
+  imports:
+    preface: Gallout a rit enporzhiañ roadennoù 'zo evel an dud a heuilhit pe a stankiten ho kont war an ensav-mañ, adalek restroù krouet gant un ezporzhiadenn war un ensav all.
+    success: Pellgaset eo bet ho roadennoù gant berzh ha keweriet e vint
+    types:
+      blocking: Roll stankañ
+      following: Roll heuliañ
+    upload: Pellgas
+  landing_strip_html: Un arveriad war <strong>%{domain}</strong> eo <strong>%{name}</strong>. Gallout a rit heuliañ anezhñ/anezhi m'ho peus ur gont er fediverse. Ma n'ho peus ket unan e c'hallit <a href="%{sign_up_path}">marilhañ amañ</a>.
+  notification_mailer:
+    digest:
+      body: 'Sed-aze un diverradenn eus ar pezh ho peus manket war %{instance} abaoe ho kweladenn ziwehzañ (%{since}):'
+      mention: Meneget oc'h bet gant "%{name} e:"
+    new_followers_summary:
+      one: Un heulier nevez a zo gwenoc'h! Yac'hou!
+      other: %{count} heulier nevez a zo ganeoc'h! Gourfiskal!
+    subject:
+      one: "1 rebuzadur nevez abaoe ho kweladenn ziwezhañ \U0001F418"
+      other: "%{count} rebuzadur nevez abaoe ho kweladenn ziwezhañ \U0001F418"
+    favourite:
+      body: "%{name} en/he deus ouzhpennet ho statud d'he/e f/bennrolloù:"
+      subject: "%{name} en/he deus ouzhpennet ho statud d'he/e f/bennrolloù"
+    follow:
+      body: "%{name} a heuilh ac'hanoc'h!"
+      subject: "%{name} a heuilh ac'hanoc'h"
+    follow_request:
+      body: "%{name} en/he deus goulennet hoc'h heuliñ"
+      subject: 'Heulier o c'hortoz: %{name}'
+    mention:
+      body: "Meneget oc'h bet gant %{name} e:"
+      subject: "%{name} vous a mentionné⋅e"
+    reblog:
+      body: "%{name} en/he deus brudet ho statud:"
+      subject: "%{name} en/he deus brudet ho statud"
+  pagination:
+    next: Da-heul
+    prev: Kent
+  remote_follow:
+    acct: Enankit ar gont a fell deoc'h implijout evit heuliañ (arveriad@domani)
+    missing_resource: N'haller ket kavout an URL adheñchañ azgoulennet evit ho kont
+    proceed: Kendalc'hit evit heuliañ
+    prompt: 'Heulian a reot:'
+  settings:
+    authorized_apps: Arloadoù aotreet
+    back: Distreiñ da vMastodon
+    edit_profile: Kemmañ an aeladexport: Data export
+    import: Import
+    preferences: Preferences
+    settings: Settings
+    two_factor_auth: Dilesa e div bazenn
+  will_paginate:
+    page_gap: "&hellip;"
+  statuses:
+    open_in_web: Digeriñ er web
+    over_character_limit: aet dreist ar vevenn arouezennoù (%{max})
+    show_more: Disjouez muioc'h
+    visibilities:
+      private: Skrammañ d'an heulierien hepken
+      public: Foran
+      unlisted: Foran, met chom hep diskouez war ar red foran
+  stream_entries:
+    click_to_show: KLikit da ziskouez
+    reblogged: brudet
+    sensitive_content: Endalc'had kizidik
+  time:
+    formats:
+      default: "%b %d, %Y, %H:%M"
+  two_factor_auth:
+    description_html: Ma tiweredekait an <strong>dilesa e div bazenn</strong> e vo ret deoc'h kaout ur pellgomzer eivt kennaskañ, dre ma vo kaset deoc'h un odeer.
+    disable: Diweredkaat
+    enable: Gweredekaat
+    instructions_html: "<strong>C'hwilervit ar boneg QR en dilesaer Google pe un arload heñvel war ho pellgomzer</strong>. Adalek bremañ e vo savet odeeroù gant an arload-mañ a vo ret deoc'h enankañ evit kennaskañ."
+    plaintext_secret_html: 'Sekred e testenn blaen: <samp>%{secret}</samp>'
+    warning: Ma n'hallit ket kefluniañ un arload dilesa bremañ, klikit war "diweredekaat" pe ne viot ket gouest da gennaskañ.
+  users:
+    invalid_email: Didalvoudek eo ar chomlec'h postel
+    invalid_otp_token: Boneg dilesa e div bazenn didalvoudek
+  will_paginate:
+    page_gap: "&hellip;"
